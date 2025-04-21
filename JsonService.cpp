@@ -1,6 +1,12 @@
-﻿#include "JsonService.h"
+﻿#include <fstream>
+#include <exception>
+#include "json.hpp"
+#include "Weather.h"
+#include "JsonService.h"
 
-Weather JsonService::getWeather(std::string s)
+
+
+Weather JsonService::getWeather(string s)
 {
     ifstream fin(s);
     if (!fin)

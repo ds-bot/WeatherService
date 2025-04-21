@@ -1,3 +1,6 @@
+#ifndef WEATHER_H
+#define WEATHER_H
+
 #include <string>
 #include <sstream>
 #include <iomanip>
@@ -22,3 +25,5 @@ public:
 
     string getDescription() const;
 };
+
+#endif

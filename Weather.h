@@ -6,7 +6,7 @@ using namespace std;
 
 class Weather {
 private:
-    string city;            // Киров
+    string city;           // Киров
     double lon;            // 49.6601
     double lat;            // 58.5966
     double temperature;    // 5.69
